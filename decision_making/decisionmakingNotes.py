@@ -225,7 +225,8 @@ When you want to check for another condition after a condition resolves to true.
 
 In such a situation, you can use the nested if construct.
 
-In a nested if construct, you can have an "if...elif...else" construct inside another if...elif...else construct.
+In a nested if construct, you can have an "if...elif...else" 
+construct inside another if...elif...else construct.
 '''
 
 Syntax:
@@ -249,20 +250,21 @@ else:
 #!/usr/bin/python
 
 mac_os = 100
-if mac_os < 200:
-   print "Expression value is less than 200"
-   if mac_os == 150:
-      print "Which is 150"
-   elif mac_os == 100:
-      print "Which is 100"
-   elif mac_os == 50:
-      print "Which is 50"
-elif mac_os < 50:
-   print "Expression value is less than 50"
-else:
-   print "Could not find true expression"
 
-print "Good bye!"
+if mac_os < 200:
+   print("Expression value is less than 200")
+   if mac_os == 150:
+      print("Which is 150")
+   elif mac_os == 100:
+      print("Which is 100")
+   elif mac_os == 50:
+      print("Which is 50")
+elif mac_os < 50:
+   print("Expression value is less than 50")
+else:
+   print("Could not find true expression")
+
+print("Good bye!")
 ********************************************************************
 Find out the maximum value:
 
